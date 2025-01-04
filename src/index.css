@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px;
+    color: white;
+    background-image: url(../img/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
+    background-position: center;
+}
+h1{
+    margin: 20px;
+    font-style: italic;
+}
+button{
+    padding: 10px;
+    display: block;
+    margin: 20px auto;
+    border-color: bisque;
+    border-radius: 10px;
+    background-color: azure;
+}
+li{
+    margin: 10px 50px 5px;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    
+}
+img{
+    width: 550px;
+    height: 450px;
+}
+
