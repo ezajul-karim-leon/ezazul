@@ -7,7 +7,16 @@
     <link rel="stylesheet" href="index.css">
     <title>My Travel Blog</title>
 </head>
-  <div id="main">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
     <div id="first" class="just">
         <h1 style="text-align: center; color: red;">Webpage for practice</h1>
         <h3 style="margin-bottom: 10px;">Last time my visited place.</h3>
@@ -17,8 +26,8 @@
     <div style="margin: 40px;">
         <h2 style="text-align: center; color: yellowgreen; margin: 50px 0 30px;">Sunrise and Sunset..</h2>
         <div class="image">
-            <div><img src="../img/IMG_20240906_180242_485.jpg" alt=""></div>
-            <div><img src="../img/IMG_20240618_061256_163.jpg" alt=""></div>
+            <div><img src="../img/sunrise.jpg" alt=""></div>
+            <div><img src="../img/sunset.jpg" alt=""></div>
         </div>
     </div>
 
@@ -40,7 +49,68 @@
             </ul>
         </div>
     </div>
-  </div>
+    <form action="" style="display: block;">
+        <h3 style="text-align: center; margin: 40px 0 30px; color: red;">Let us know your choice.</h3>
+
+        <label for="name"> Name please:<input type="text" id="name" placeholder="Write Your name in Camel Case"></label>
+        <label for="email"> Email please:<input type="email" id="email" placeholder="Write Valid Email."></label>
+        <label for="phone"> Contact No. please:<input type="email" id="phone" placeholder="Write Phone No."></label>
+
+        <fieldset style="padding: 30px;">
+            <legend>Pick One:</legend>
+            <label for="something"><input type="radio" name="just" id="something">Something.</label>
+            <label for="something"><input type="radio" name="just" id="anotherthing">Anotherthing.</label>
+        </fieldset>
+
+        <fieldset style="padding: 30px; margin-top: 40px;">
+            <legend>Choose More</legend>
+            <label for="more"><input type="checkbox" name="more" id="more">More.</label>
+            <label for="notMore"><input type="checkbox" name="more" id="notMore">More.</label>
+            <label for="someMore"><input type="checkbox" name="more" id="someMore">Some More.</label>       
+        </fieldset>
+
+        <input id="btn" type="submit" value="Submit">
+        <input style="background-color: blue;" id="btn" type="reset" value="Reset">
+    </form>
+
+    <table style="border-collapse: collapse; margin: 40px;">
+        <thead>
+            <caption>Salary Table</caption>
+            <tr>
+                <td>SL.</td>
+                <td>Employee name</td>
+                <td>Company</td>
+                <td>Salary</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Ezajul</td>
+                <td>AIBL</td>
+                <td>7500 tk</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Karim</td>
+                <td>super Star</td>
+                <td>18000 tk</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Leon</td>
+                <td>Asset  </td>
+                <td>8500 tk</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">Total salary 0000 tk.</td>
+        </tfoot>
+    </table>
+    </main>
+    <footer>
+        <p><small style="color: rgb(142, 135, 135);">&copy 2024. all copyrights.</small></p>
+    </footer>
 
     
 </body>

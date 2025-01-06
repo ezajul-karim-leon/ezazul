@@ -10,8 +10,14 @@ body{
     background-image: url(../img/dark-background-abstract-background-network-3d-background-7680x4320-8324.png);
     background-position: center;
 }
+nav > ul > li{
+    display: inline;
+}
+nav li > a{
+    text-decoration: none;
+}
 h1{
-    margin: 20px;
+    margin: 70px 20px 30px;
     font-style: italic;
 }
 button{
@@ -33,5 +39,21 @@ li{
 img{
     width: 550px;
     height: 450px;
+}
+label{
+    display: block;
+    margin-bottom: 20px;
+}
+#btn{
+    padding: 10px;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: brown;
+    color: white;
+}
+td{
+    border: 2px solid;
+    padding: 10px;
 }
 
